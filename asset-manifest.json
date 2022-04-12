@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coming-soon/static/css/main.7472b687.css",
+    "main.js": "/coming-soon/static/js/main.ea3a3f9b.js",
+    "static/js/787.af6f03d8.chunk.js": "/coming-soon/static/js/787.af6f03d8.chunk.js",
+    "static/media/forest-bridge.jpeg": "/coming-soon/static/media/forest-bridge.b138df8d135b51366682.jpeg",
+    "index.html": "/coming-soon/index.html",
+    "main.7472b687.css.map": "/coming-soon/static/css/main.7472b687.css.map",
+    "main.ea3a3f9b.js.map": "/coming-soon/static/js/main.ea3a3f9b.js.map",
+    "787.af6f03d8.chunk.js.map": "/coming-soon/static/js/787.af6f03d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7472b687.css",
+    "static/js/main.ea3a3f9b.js"
+  ]
+}
