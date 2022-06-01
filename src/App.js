@@ -3,9 +3,8 @@ import React from 'react';
 import CountdownTimer from './CountdownTimer';
 
 function App() {
-  const SIX_DAYS_IN_MS = 6 * 24 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
-  const dateTimeAfterSixDays = NOW_IN_MS + SIX_DAYS_IN_MS;
+  const date = new Date("06/07/2022 23:59:59");
+  const dateTimeInMilliseconds = date.getTime();
 
   return (
     <div className="background-image">
@@ -15,7 +14,7 @@ function App() {
       </div>
       <div className="middle">
         <h1>COMING SOON</h1>
-        <CountdownTimer targetDate={dateTimeAfterSixDays} />
+        <CountdownTimer targetDate={dateTimeInMilliseconds} />
       </div>
     </div>
   );
