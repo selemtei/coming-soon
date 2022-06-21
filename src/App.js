@@ -3,7 +3,7 @@ import React from 'react';
 import CountdownTimer from './CountdownTimer';
 
 function App() {
-  const date = new Date("06/07/2022 23:59:59");
+  const date = new Date("06/27/2022 23:59:59");
   const dateTimeInMilliseconds = date.getTime();
 
   return (
